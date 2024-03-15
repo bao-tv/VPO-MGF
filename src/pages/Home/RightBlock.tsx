@@ -4,6 +4,7 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
+import VPODetail from '../VPODetails'
 
 export default function RightBlock() {
   const [value, setValue] = React.useState('1');
@@ -26,7 +27,7 @@ export default function RightBlock() {
           </TabList>
         </Box>
         <TabPanel value="Overview">Item One</TabPanel>
-        <TabPanel value="VPO-Details">Item Two</TabPanel>
+        <TabPanel value="VPO-Details"><VPODetail /></TabPanel>
         <TabPanel value="CPO-Details">Item Three</TabPanel>
         <TabPanel value="Delivery">Delivery</TabPanel>
         <TabPanel value="Attachments">Attachments</TabPanel>

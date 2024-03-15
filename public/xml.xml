@@ -1,0 +1,212 @@
+﻿<ns0:LSPPurchaseOrders xmlns:ns0="www.mgfsourcing.com/schemas/logistics/LSP/PurchaseOrders/v1.0" xmlns:ns1="www.mgfsourcing.com/schemas/logistics/LSP/PurchaseOrder/v1.0" xmlns:ns2="www.mgfsourcing.com/schemas/logistics/LSP/Address/v1.0">
+	<ns1:LSPPurchaseOrder>
+		<LSPPurchaseHeader>
+			<PONumber>LANININT100594001</PONumber>
+			<POStatus>CLOSED</POStatus>
+			<POType>EC</POType>
+			<POCreatedDate>2023-11-29T00:49:19</POCreatedDate>
+			<POShortNum>100594001</POShortNum>
+			<PONumPrefix>IN-INT</PONumPrefix>
+			<Brand>LAN</Brand>
+			<TSCustomerAccount>134</TSCustomerAccount>
+			<CustName>LANE BRYANT</CustName>
+			<TSVendorAccount>100803</TSVendorAccount>
+			<AXVendorAccount>10500203</AXVendorAccount>
+			<VendorName>LIU SUN ENTERPRISES INC.</VendorName>
+			<TSFactoryAccount>100804</TSFactoryAccount>
+			<AXFactoryAccount>11500471</AXFactoryAccount>
+			<FactoryName>LIU SUN/ SHANGHAI LIU SUN ENTERPRIS</FactoryName>
+			<CDSFileHeaderType>DDP</CDSFileHeaderType>
+			<VendDeliveryTerms>FOB</VendDeliveryTerms>
+			<PaymentTerms>NT65</PaymentTerms>
+			<CountryOfOrigin>CN</CountryOfOrigin>
+			<CompanyCode>3005</CompanyCode>
+			<ProductionOffice>HKG</ProductionOffice>
+			<SellingChannel>CUSTOMER</SellingChannel>
+			<Season>SUMMER 2024</Season>
+			<CommodityCode>IN-INTIMATE APP</CommodityCode>
+			<Buyer>MCHI</Buyer>
+			<LadingPoint>57035</LadingPoint>
+			<Hot_Flag>N</Hot_Flag>
+			<Addresses>
+				<ns2:Address>
+					<Type>Vendor</Type>
+					<AccountNum>100803</AccountNum>
+					<Name>LIU SUN ENTERPRISES INC.</Name>
+					<Street1>3520 147TH STREET</Street1>
+					<Street2>SUITE 1B</Street2>
+					<City>FLUSHING</City>
+					<State>NY</State>
+					<PostalCode>11354</PostalCode>
+					<Country>US</Country>
+				</ns2:Address>
+				<ns2:Address>
+					<Type>Factory</Type>
+					<AccountNum>100804</AccountNum>
+					<Name>LIU SUN/ SHANGHAI LIU SUN ENTERPRISE LTD</Name>
+					<Street1>#1058, XIN GE ROAD</Street1>
+					<Street2>XIN QIAO,SONG JIANG</Street2>
+					<City>SHANGHAI</City>
+					<PostalCode>201612</PostalCode>
+					<Country>CN</Country>
+				</ns2:Address>
+				<ns2:Address>
+					<Type>Customer</Type>
+					<AccountNum>134</AccountNum>
+					<Name>LANE BRYANT</Name>
+					<Street1>8323 WALTON PARKWAY</Street1>
+					<City>NEW ALBANY</City>
+					<State>OH</State>
+					<PostalCode>43054</PostalCode>
+					<Country>US</Country>
+				</ns2:Address>
+			</Addresses>
+			<LSPPurchaseLines>
+				<LSPPurchaseLine>
+					<PONumber>LANININT100594001</PONumber>
+					<LineNumber>1</LineNumber>
+					<RowNumber>1.000000</RowNumber>
+					<POLineStatus>CLOSED</POLineStatus>
+					<RequestNumber>HQ199190</RequestNumber>
+					<CustStyleNum>1118259</CustStyleNum>
+					<ItemDescription>KNOT FRONT UW RELAXED TANKINI</ItemDescription>
+					<VPOColorway>PANTONE MARITIME BLUE</VPOColorway>
+					<CPONumber>687135</CPONumber>
+					<CPODate>2023-11-16</CPODate>
+					<FOBPrice>13.950000</FOBPrice>
+					<FOBCur>USD</FOBCur>
+					<FinalQty>500.000000</FinalQty>
+					<FinalQtyUOM>EA</FinalQtyUOM>
+					<NLTDate>2024-02-19</NLTDate>
+					<CustDeliveryDate>2024-03-25</CustDeliveryDate>
+					<FactoryGACDate>2024-02-19</FactoryGACDate>
+					<Department>LAN061</Department>
+					<Division>07</Division>
+					<Class>SWIMWEAR</Class>
+					<CustDeliveryTerms>DDP</CustDeliveryTerms>
+					<FactoryDeliveryTerms>FOB</FactoryDeliveryTerms>
+					<TransportationMode>OCN</TransportationMode>
+					<FinalDestination>OH</FinalDestination>
+					<PortOfOrigin>57035</PortOfOrigin>
+					<CustShipTo>LAN-OH</CustShipTo>
+					<PackageVolume>0.003772</PackageVolume>
+					<PackageVolumeUOM>CBM</PackageVolumeUOM>
+					<GrossWeight>0.520800</GrossWeight>
+					<GrossWeightUOM>LB</GrossWeightUOM>
+					<EstLandedCost>18.426403</EstLandedCost>
+					<EstLandedCostUOM>USD</EstLandedCostUOM>
+					<SOID>687135</SOID>
+					<ModeQlf>O-STD</ModeQlf>
+					<CPOOrderType>3000</CPOOrderType>
+					<Addresses>
+						<ns2:Address>
+							<Type>ShipTo</Type>
+							<AccountNum>LAN-OH</AccountNum>
+							<Name>ETNA RETAIL DC LLC</Name>
+							<Street1>200 HERITAGE DRIVE</Street1>
+							<City>PATASKALA</City>
+							<State>OH</State>
+							<PostalCode>43062</PostalCode>
+							<Country>US</Country>
+						</ns2:Address>
+					</Addresses>
+					<HTSNumbers>
+						<HTSNumber>6112410010</HTSNumber>
+					</HTSNumbers>
+					<CPOLineDetails>
+						<CPOLineDetail>
+							<CPOLineNum>1001.000000</CPOLineNum>
+							<CPORowNum>0</CPORowNum>
+							<CustItemId>1118259</CustItemId>
+							<TSColorCode>CLR003</TSColorCode>
+							<CustColorCode>0000028161</CustColorCode>
+							<ColorDescription>PANTONE MARITIME BLUE</ColorDescription>
+							<SizeCode>5496</SizeCode>
+							<SizeDescription>38F</SizeDescription>
+							<CPOQty>100.000000</CPOQty>
+							<CPOQtyUOM>EA</CPOQtyUOM>
+							<CustSKU>700001718491</CustSKU>
+							<CustDescr>UW PLUNGE RELAXED KNOT FRONT TANKINI 1118259 LS:PANTONE MARITIME BLUE:38F</CustDescr>
+							<CustLongSKU>LINE# 001</CustLongSKU>
+							<PrePackCode>3</PrePackCode>
+							<PackType/>
+							<PackRatio>1.000000</PackRatio>
+						</CPOLineDetail>
+						<CPOLineDetail>
+							<CPOLineNum>2001.000000</CPOLineNum>
+							<CPORowNum>1</CPORowNum>
+							<CustItemId>1118259</CustItemId>
+							<TSColorCode>CLR003</TSColorCode>
+							<CustColorCode>0000028161</CustColorCode>
+							<ColorDescription>PANTONE MARITIME BLUE</ColorDescription>
+							<SizeCode>8961</SizeCode>
+							<SizeDescription>38G</SizeDescription>
+							<CPOQty>100.000000</CPOQty>
+							<CPOQtyUOM>EA</CPOQtyUOM>
+							<CustSKU>700001718521</CustSKU>
+							<CustDescr>UW PLUNGE RELAXED KNOT FRONT TANKINI 1118259 LS:PANTONE MARITIME BLUE:38G</CustDescr>
+							<CustLongSKU>LINE# 002</CustLongSKU>
+							<PrePackCode>3</PrePackCode>
+							<PackType/>
+							<PackRatio>1.000000</PackRatio>
+						</CPOLineDetail>
+						<CPOLineDetail>
+							<CPOLineNum>3001.000000</CPOLineNum>
+							<CPORowNum>2</CPORowNum>
+							<CustItemId>1118259</CustItemId>
+							<TSColorCode>CLR003</TSColorCode>
+							<CustColorCode>0000028161</CustColorCode>
+							<ColorDescription>PANTONE MARITIME BLUE</ColorDescription>
+							<SizeCode>8979</SizeCode>
+							<SizeDescription>38H</SizeDescription>
+							<CPOQty>100.000000</CPOQty>
+							<CPOQtyUOM>EA</CPOQtyUOM>
+							<CustSKU>700001718507</CustSKU>
+							<CustDescr>UW PLUNGE RELAXED KNOT FRONT TANKINI 1118259 LS:PANTONE MARITIME BLUE:38H</CustDescr>
+							<CustLongSKU>LINE# 003</CustLongSKU>
+							<PrePackCode>3</PrePackCode>
+							<PackType/>
+							<PackRatio>1.000000</PackRatio>
+						</CPOLineDetail>
+						<CPOLineDetail>
+							<CPOLineNum>4001.000000</CPOLineNum>
+							<CPORowNum>3</CPORowNum>
+							<CustItemId>1118259</CustItemId>
+							<TSColorCode>CLR003</TSColorCode>
+							<CustColorCode>0000028161</CustColorCode>
+							<ColorDescription>PANTONE MARITIME BLUE</ColorDescription>
+							<SizeCode>8987</SizeCode>
+							<SizeDescription>40H</SizeDescription>
+							<CPOQty>100.000000</CPOQty>
+							<CPOQtyUOM>EA</CPOQtyUOM>
+							<CustSKU>700001718415</CustSKU>
+							<CustDescr>UW PLUNGE RELAXED KNOT FRONT TANKINI 1118259 LS:PANTONE MARITIME BLUE:40H</CustDescr>
+							<CustLongSKU>LINE# 006</CustLongSKU>
+							<PrePackCode>3</PrePackCode>
+							<PackType/>
+							<PackRatio>1.000000</PackRatio>
+						</CPOLineDetail>
+						<CPOLineDetail>
+							<CPOLineNum>5001.000000</CPOLineNum>
+							<CPORowNum>4</CPORowNum>
+							<CustItemId>1118259</CustItemId>
+							<TSColorCode>CLR003</TSColorCode>
+							<CustColorCode>0000028161</CustColorCode>
+							<ColorDescription>PANTONE MARITIME BLUE</ColorDescription>
+							<SizeCode>8458</SizeCode>
+							<SizeDescription>42H</SizeDescription>
+							<CPOQty>100.000000</CPOQty>
+							<CPOQtyUOM>EA</CPOQtyUOM>
+							<CustSKU>700001718354</CustSKU>
+							<CustDescr>UW PLUNGE RELAXED KNOT FRONT TANKINI 1118259 LS:PANTONE MARITIME BLUE:42H</CustDescr>
+							<CustLongSKU>LINE# 009</CustLongSKU>
+							<PrePackCode>3</PrePackCode>
+							<PackType/>
+							<PackRatio>1.000000</PackRatio>
+						</CPOLineDetail>
+					</CPOLineDetails>
+				</LSPPurchaseLine>
+			</LSPPurchaseLines>
+		</LSPPurchaseHeader>
+	</ns1:LSPPurchaseOrder>
+</ns0:LSPPurchaseOrders>
