@@ -4,18 +4,33 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
-<<<<<<< HEAD
-import VPODetail from '../VPODetails'
-=======
-import VPOOverview from '../../components/organismos/VPOOverview';
->>>>>>> 5e7026100be55ccc82d00a6caf8f22708bb28b5c
+import {xmlToJson} from 'utils';
+import VPOOverview from 'components/organismos/VPOOverview';
+import VPODetails from '../VPODetails';
+import CPODetails from '../CPODetails';
 
 export default function RightBlock() {
-  const [value, setValue] = React.useState('1');
+  const [value, setValue] = React.useState('Overview');
+  const [xmlData, setXmlData] = React.useState(null);
+    React.useEffect(() => {
+        async function fetchData() {
+            const response = await fetch('/xml.xml');
+            const text = await response.text();
+
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(text, 'text/xml');
+
+            const parsedData: any = xmlToJson(xmlDoc);
+            setXmlData(parsedData);
+        }
+        fetchData();
+    }, []);
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
+
+  // console.log('bao xmlData: ', xmlData ? xmlData['ns0:LSPPurchaseOrders']['ns1:LSPPurchaseOrder']['LSPPurchaseHeader'] : 'xmlData is null or undefined');
 
   return (
     <Box sx={{ width: '100%', typography: 'body1' }}>
@@ -30,16 +45,11 @@ export default function RightBlock() {
             <Tab label="MultiView Reflist" value="MultiView-Reflist" />
           </TabList>
         </Box>
-<<<<<<< HEAD
-        <TabPanel value="Overview">Item One</TabPanel>
-        <TabPanel value="VPO-Details"><VPODetail /></TabPanel>
-=======
         <TabPanel value="Overview" sx={{
           padding: '12px'
         }}><VPOOverview /></TabPanel>
-        <TabPanel value="VPO-Details">Item Two</TabPanel>
->>>>>>> 5e7026100be55ccc82d00a6caf8f22708bb28b5c
-        <TabPanel value="CPO-Details">Item Three</TabPanel>
+        <TabPanel value="VPO-Details" sx={{padding: '12px'}}><VPODetails /></TabPanel>
+        <TabPanel value="CPO-Details" sx={{padding: '12px'}}><CPODetails data={xmlData && xmlData['ns0:LSPPurchaseOrders']['ns1:LSPPurchaseOrder']['LSPPurchaseHeader']}/></TabPanel>
         <TabPanel value="Delivery">Delivery</TabPanel>
         <TabPanel value="Attachments">Attachments</TabPanel>
         <TabPanel value="MultiView-Reflist">MultiView Reflist</TabPanel>

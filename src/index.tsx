@@ -6,21 +6,18 @@ import LayoutMain from './layout/LayoutMain';
 import { CacheProvider } from '@emotion/react'
 import CssBaseline from '@mui/material/CssBaseline'
 import { ThemeProvider } from '@mui/material/styles'
-import { ToastContainer } from 'react-toastify'
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css'
 import 'react-toastify/dist/ReactToastify.min.css'
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-<<<<<<< HEAD
 import "ag-grid-community/styles/ag-grid.css"; // Mandatory CSS required by the grid
 import "ag-grid-community/styles/ag-theme-quartz.css"; // Optional Theme applied to the grid
-=======
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache()
 
->>>>>>> 5e7026100be55ccc82d00a6caf8f22708bb28b5c
 
 
 const root = ReactDOM.createRoot(

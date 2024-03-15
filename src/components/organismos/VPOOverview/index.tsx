@@ -4,6 +4,7 @@ import {
     makeStyles, createStyles, styled,
 } from '@mui/styles';
 import { Controller, useForm } from 'react-hook-form';
+import {Colors} from 'assets';
 
 const useStyles = makeStyles((theme: any) => createStyles({
     root: {
@@ -44,9 +45,9 @@ export default function VPOOverview() {
             }}>
                 <Box
                     sx={{
-                        background: '#f0f0f0',
+                        background: Colors.backGroundGroup,
                         borderRadius: '10px',
-                        border: '1px solid #ccc',
+                        border: `1px solid ${Colors.borderColor}`,
                         flex: '2',
                         padding: '0.5rem',
                     }}
@@ -59,7 +60,7 @@ export default function VPOOverview() {
                             borderRadius: '10px',
                             padding: '10px',
                             background: 'white',
-                            border: '1px solid #ccc',
+                            border: `1px solid ${Colors.borderColor}`,
                             overflow: 'auto',
                             display: 'grid',
                             gridTemplateColumns: '1fr 1fr 1fr 1fr',
@@ -367,9 +368,9 @@ export default function VPOOverview() {
                 }}>
                     <Box
                         sx={{
-                            background: '#f0f0f0',
+                            background: Colors.backGroundGroup,
                             borderRadius: '10px',
-                            border: '1px solid #ccc',
+                            border: `1px solid ${Colors.borderColor}`,
                             padding: '0.5rem',
                         }}
                     >
@@ -381,7 +382,7 @@ export default function VPOOverview() {
                                 borderRadius: '10px',
                                 padding: '10px',
                                 background: 'white',
-                                border: '1px solid #ccc',
+                                border: `1px solid ${Colors.borderColor}`,
                                 overflow: 'auto',
                                 display: 'grid',
                                 gridTemplateColumns: '1fr 1fr',
@@ -441,9 +442,9 @@ export default function VPOOverview() {
                     </Box>
                     <Box
                         sx={{
-                            background: '#f0f0f0',
+                            background: Colors.backGroundGroup,
                             borderRadius: '10px',
-                            border: '1px solid #ccc',
+                            border: `1px solid ${Colors.borderColor}`,
                             padding: '0.5rem',
                         }}
                     >
@@ -455,7 +456,7 @@ export default function VPOOverview() {
                                 borderRadius: '10px',
                                 padding: '10px',
                                 background: 'white',
-                                border: '1px solid #ccc',
+                                border: `1px solid ${Colors.borderColor}`,
                                 overflow: 'auto',
                                 display: 'grid',
                                 gridTemplateColumns: '1fr 1fr',
@@ -522,9 +523,9 @@ export default function VPOOverview() {
             }}>
                 <Box
                     sx={{
-                        background: '#f0f0f0',
+                        background: Colors.backGroundGroup,
                         borderRadius: '10px',
-                        border: '1px solid #ccc',
+                        border: `1px solid ${Colors.borderColor}`,
                         flex: '2',
                         padding: '0.5rem',
                     }}
@@ -537,7 +538,7 @@ export default function VPOOverview() {
                             borderRadius: '10px',
                             padding: '10px',
                             background: 'white',
-                            border: '1px solid #ccc',
+                            border: `1px solid ${Colors.borderColor}`,
                             overflow: 'auto',
                             display: 'grid',
                             gridTemplateColumns: '1fr 1fr 1fr 1fr',
@@ -841,9 +842,9 @@ export default function VPOOverview() {
                 }}>
                     <Box
                         sx={{
-                            background: '#f0f0f0',
+                            background: Colors.backGroundGroup,
                             borderRadius: '10px',
-                            border: '1px solid #ccc',
+                            border: `1px solid ${Colors.borderColor}`,
                             padding: '0.5rem',
                         }}
                     >
@@ -855,7 +856,7 @@ export default function VPOOverview() {
                                 borderRadius: '10px',
                                 padding: '10px',
                                 background: 'white',
-                                border: '1px solid #ccc',
+                                border: `1px solid ${Colors.borderColor}`,
                                 overflow: 'auto',
                                 display: 'grid',
                                 gridTemplateColumns: '1fr',
@@ -974,9 +975,9 @@ export default function VPOOverview() {
             }}>
                 <Box
                     sx={{
-                        background: '#f0f0f0',
+                        background: Colors.backGroundGroup,
                         borderRadius: '10px',
-                        border: '1px solid #ccc',
+                        border: `1px solid ${Colors.borderColor}`,
                         padding: '0.5rem',
                         flex: 1,
                     }}
@@ -989,7 +990,7 @@ export default function VPOOverview() {
                             borderRadius: '10px',
                             padding: '10px',
                             background: 'white',
-                            border: '1px solid #ccc',
+                            border: `1px solid ${Colors.borderColor}`,
                             overflow: 'auto',
                         }}
                     >
@@ -1024,9 +1025,9 @@ export default function VPOOverview() {
                 </Box>
                 <Box
                     sx={{
-                        background: '#f0f0f0',
+                        background: Colors.backGroundGroup,
                         borderRadius: '10px',
-                        border: '1px solid #ccc',
+                        border: `1px solid ${Colors.borderColor}`,
                         padding: '0.5rem',
                         flex: 1,
                     }}
@@ -1039,7 +1040,7 @@ export default function VPOOverview() {
                             borderRadius: '10px',
                             padding: '10px',
                             background: 'white',
-                            border: '1px solid #ccc',
+                            border: `1px solid ${Colors.borderColor}`,
                             overflow: 'auto',
                         }}
                     >
@@ -1073,9 +1074,9 @@ export default function VPOOverview() {
                     </Box>
                 </Box>
                 <Box sx={{
-                    background: '#f0f0f0',
+                    background: Colors.backGroundGroup,
                     borderRadius: '10px',
-                    border: '1px solid #ccc',
+                    border: `1px solid ${Colors.borderColor}`,
                     padding: '0.5rem',
                     flex: 1,
                 }}>
@@ -1087,7 +1088,7 @@ export default function VPOOverview() {
                             borderRadius: '10px',
                             padding: '10px',
                             background: 'white',
-                            border: '1px solid #ccc',
+                            border: `1px solid ${Colors.borderColor}`,
                             overflow: 'auto',
                             display: 'grid',
                             gridTemplateColumns: '1fr 1fr',
