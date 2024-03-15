@@ -4,6 +4,7 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
+import VPOOverview from '../../components/organismos/VPOOverview';
 
 export default function RightBlock() {
   const [value, setValue] = React.useState('1');
@@ -25,7 +26,9 @@ export default function RightBlock() {
             <Tab label="MultiView Reflist" value="MultiView-Reflist" />
           </TabList>
         </Box>
-        <TabPanel value="Overview">Item One</TabPanel>
+        <TabPanel value="Overview" sx={{
+          padding: '12px'
+        }}><VPOOverview /></TabPanel>
         <TabPanel value="VPO-Details">Item Two</TabPanel>
         <TabPanel value="CPO-Details">Item Three</TabPanel>
         <TabPanel value="Delivery">Delivery</TabPanel>
