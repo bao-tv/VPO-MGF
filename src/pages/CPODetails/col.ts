@@ -13,7 +13,7 @@ export const columnDefs: ColDef[] = [
       },
     },
     {
-      headerName: 'Customer Style No',
+      headerName: 'Customer Style Nox',
       field: 'index', // Transfer status
       width: 200,
       filter: false,

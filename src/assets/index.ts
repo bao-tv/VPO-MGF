@@ -1,2 +1,2 @@
 // import { colors } from "@mui/material";
-export * from './define';
+export * from './defineConstant';
