@@ -8,19 +8,17 @@ type Props = {
     data?: any
 }
 
-const CPODetails = (props: Props) => {
-    console.log('bao data: ', props?.data.LSPPurchaseLines.LSPPurchaseLine);
-    // const [rowData, setRowData] = useState<any>([]);
-    const cloneRowData = props?.data.LSPPurchaseLines.LSPPurchaseLine.CPOLineDetails.CPOLineDetail.map((item: any) => {
-        // console.log('bao item: ', item);
-        return ({
-            ...item,
-            index: +item.CPORowNum['#text'] + 1,
-            POLineStatus: props?.data.LSPPurchaseLines.LSPPurchaseLine.POLineStatus['#text'],
-            CPODate: props?.data.LSPPurchaseLines.LSPPurchaseLine.CPODate['#text'],
-        })
-    })
-    // setRowData(cloneRowData);
+const CPODetails = ({dataCPODetails}: any) => {
+    // console.log('bao dataCPODetails: ', dataCPODetails);
+    const rowData = dataCPODetails?.CPOLineDetailJson?.map((item: any) => ({
+        ...item,
+        LineNumber: dataCPODetails.LineNumber,
+        CustStyleNum: dataCPODetails.CustStyleNum,
+        POStatus: dataCPODetails.POStatus,
+        CPONumber: dataCPODetails.CPONumber,
+        CPODate: dataCPODetails.CPODate,
+        FactoryName: dataCPODetails.FactoryName,
+    }))
   return (
     <>
         <Box sx={{backgroundColor: Colors.backGroundGroup, padding: 0}}>
@@ -48,7 +46,7 @@ const CPODetails = (props: Props) => {
                 animateRows={true}
                 suppressPaginationPanel={true}
                 singleClickEdit={true}
-                rowData={cloneRowData}
+                rowData={rowData}
                 columnDefs={columnDefs}
                 
             />

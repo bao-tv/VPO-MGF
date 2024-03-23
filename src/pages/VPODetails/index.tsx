@@ -1,29 +1,46 @@
-import { useEffect, useState } from 'react';
-import {xmlToJson} from '../../utils'
+import { Box } from '@mui/material';
+import React, { useState } from 'react'
+import {Colors} from 'assets';
+import { AgGridReact } from 'ag-grid-react';
+import { columnDefs } from './col';
 
-function MyComponent() {
-    const [xmlData, setXmlData] = useState(null);
-    console.log('bao xmlData: ', xmlData);
-    useEffect(() => {
-        async function fetchData() {
-            const response = await fetch('/xml.xml');
-            const text = await response.text();
-
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(text, 'text/xml');
-
-            const parsedData: any = xmlToJson(xmlDoc);
-            setXmlData(parsedData);
-        }
-        fetchData();
-    }, []);
-
+function MyComponent({dataVPODetails}: any) {
+    console.log('bao dataVPODetails: ', dataVPODetails);
     // Function to convert XML to JSON
 
     return (
-        <div>
-            <pre>{JSON.stringify(xmlData, null, 2)}</pre>
+        <>
+        <Box sx={{backgroundColor: Colors.backGroundGroup, padding: 0}}>
+            CPO Details
+        </Box>
+        <div
+            className="ag-theme-quartz"
+            style={{
+                width: '100%',
+                height: 'calc(100vh - 164px)',
+                boxSizing: 'border-box',
+                marginTop: '10px',
+            }}
+            id="myGrid"
+        >
+            <AgGridReact
+                defaultColDef={{
+                    filter: true,
+                    sortable: true,
+                    resizable: true,
+                    editable: true,
+                    menuTabs: [],
+                    headerComponentParams: { menuIcon: 'fa-bars' },
+                }}
+                animateRows={true}
+                suppressPaginationPanel={true}
+                singleClickEdit={true}
+                rowData={dataVPODetails}
+                columnDefs={columnDefs}
+                
+            />
         </div>
+    </>
     );
 }
 

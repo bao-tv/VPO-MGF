@@ -4,8 +4,8 @@ import { ColDef } from 'ag-grid-community';
 export const columnDefs: ColDef[] = [
     {
       headerName: 'VPO Line Number',
-      field: 'index', // Transfer status
-      width: 200,
+      field: 'LineNumber', // Transfer status
+      width: 120,
       filter: false,
       editable: false,
       cellStyle: {
@@ -14,8 +14,8 @@ export const columnDefs: ColDef[] = [
     },
     {
       headerName: 'Customer Style Nox',
-      field: 'index', // Transfer status
-      width: 200,
+      field: 'CustStyleNum', // Transfer status
+      width: 120,
       filter: false,
       editable: false,
       cellStyle: {
@@ -24,8 +24,8 @@ export const columnDefs: ColDef[] = [
     },
     {
       headerName: 'Customer Item No',
-      field: 'CustItemId.#text', // Transfer status
-      width: 100,
+      field: 'CustItemId',
+      width: 150,
       filter: false,
       editable: false,
       cellStyle: {
@@ -34,7 +34,7 @@ export const columnDefs: ColDef[] = [
     },
     {
         headerName: 'Assignment Status',
-        field: 'POLineStatus', // Transfer status
+        field: 'POStatus', // Transfer status
         width: 100,
         filter: false,
         editable: true,
@@ -44,7 +44,7 @@ export const columnDefs: ColDef[] = [
     },
     {
         headerName: 'CPO No',
-        field: 'description', // Transfer status
+        field: 'CPONumber', // Transfer status
         width: 100,
         filter: false,
         editable: true,
@@ -54,7 +54,7 @@ export const columnDefs: ColDef[] = [
     },
     {
         headerName: 'Customer Item Description',
-        field: 'CustDescr.#text', // Transfer status
+        field: 'CustDescr', // Transfer status
         width: 100,
         filter: false,
         editable: true,
@@ -64,7 +64,7 @@ export const columnDefs: ColDef[] = [
     },
     {
         headerName: 'VPO Colorway',
-        field: 'ColorDescription.#text', // Transfer status
+        field: 'ColorDescription', // Transfer status
         width: 100,
         filter: false,
         editable: true,
@@ -74,7 +74,7 @@ export const columnDefs: ColDef[] = [
     },
     {
         headerName: 'Customer Color Code',
-        field: 'TSColorCode.#text', // Transfer status
+        field: 'CustColorCode', // Transfer status
         width: 100,
         filter: false,
         editable: true,
@@ -84,7 +84,7 @@ export const columnDefs: ColDef[] = [
     },
     {
         headerName: 'Customer Color Description',
-        field: 'ColorDescription.#text', // Transfer status
+        field: 'ColorDescription', // Transfer status
         width: 100,
         filter: false,
         editable: true,
@@ -94,7 +94,7 @@ export const columnDefs: ColDef[] = [
     },
     {
         headerName: 'Customer Size Code',
-        field: 'SizeCode.#text', // Transfer status
+        field: 'SizeCode', // Transfer status
         width: 100,
         filter: false,
         editable: true,
@@ -104,7 +104,7 @@ export const columnDefs: ColDef[] = [
     },
     {
         headerName: 'Customer Size Description',
-        field: 'SizeDescription.#text', // Transfer status
+        field: 'SizeDescription', // Transfer status
         width: 100,
         filter: false,
         editable: true,
@@ -114,7 +114,7 @@ export const columnDefs: ColDef[] = [
     },
     {
         headerName: 'Assigned Quanity',
-        field: 'CPOQty.#text', // Transfer status
+        field: 'CPOQty', // Transfer status
         width: 100,
         filter: false,
         editable: true,
@@ -125,7 +125,177 @@ export const columnDefs: ColDef[] = [
     {
         headerName: 'CPO Date',
         field: 'CPODate', // Transfer status
-        width: 40,
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'CPO Status',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Factory',
+        field: 'FactoryName', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Customer Ship To Address',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Vender Address',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Factory Address',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Order Dates',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Customer SKU No',
+        field: 'CustSKU', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Customer Class',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Prepack',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Prepack SKU',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Ship Pack',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Pack Type',
+        field: 'PackType', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Pack Ratio',
+        field: 'PackRatio', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Pack Instructions',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'Item Instructions',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'CPO Open Qty',
+        field: '', // Transfer status
+        width: 120,
+        filter: false,
+        editable: false,
+        cellStyle: {
+          padding: '0 8px !important', textAlign: 'center', borderRight: '1px solid #dde2eb',
+        },
+      },
+      {
+        headerName: 'VPO ATP Qty',
+        field: '', // Transfer status
+        width: 120,
         filter: false,
         editable: false,
         cellStyle: {

@@ -82,9 +82,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="System Order No"
                                     />
@@ -106,9 +103,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="VPO Number"
                                     />
@@ -130,9 +124,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Order Commit No"
                                     />
@@ -154,9 +145,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Production Office"
                                     />
@@ -179,9 +167,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Entity"
                                     />
@@ -203,9 +188,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Status"
                                     />
@@ -227,9 +209,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Vendor Acknowledged"
                                     />
@@ -251,9 +230,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Create Date"
                                     />
@@ -276,9 +252,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Created By"
                                     />
@@ -300,9 +273,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Modify Date"
                                     />
@@ -324,9 +294,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Modifed By"
                                     />
@@ -348,9 +315,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Production Office"
                                     />
@@ -560,9 +524,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Merchandising"
                                     />
@@ -584,9 +545,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Vendor AX ID"
                                     />
@@ -608,9 +566,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="VendorID"
                                     />
@@ -632,9 +587,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Vendor Name"
                                     />
@@ -657,9 +609,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Factory AX ID"
                                     />
@@ -681,9 +630,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Factory ID"
                                     />
@@ -705,9 +651,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Factory Name"
                                     />
@@ -729,9 +672,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Origin Country"
                                     />
@@ -754,9 +694,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Customer"
                                     />
@@ -778,9 +715,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Brand"
                                     />
@@ -802,9 +736,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Category"
                                     />
@@ -826,9 +757,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Production Office"
                                     />
@@ -1013,9 +941,6 @@ export default function VPOOverview() {
                                         maxRows={6}
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                     />
                                 )}
@@ -1063,9 +988,6 @@ export default function VPOOverview() {
                                         multiline={true}
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                     />
                                 )}
@@ -1110,9 +1032,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Final Ordered"
                                     />
@@ -1134,9 +1053,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="Open"
                                     />
@@ -1158,9 +1074,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="AX Qty Received"
                                     />
@@ -1182,9 +1095,6 @@ export default function VPOOverview() {
                                         variant="filled"
                                         inputProps={{
                                             'aria-label': 'Search',
-                                            // style: {
-                                            //   '-webkit-text-fill-color': 'inherit',
-                                            // } as any,
                                         }}
                                         label="VCI Qty Received"
                                     />

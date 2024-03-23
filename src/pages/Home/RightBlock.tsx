@@ -5,26 +5,27 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import {xmlToJson} from 'utils';
+// import {json.txt} from '/json.txt';
 import VPOOverview from 'components/organismos/VPOOverview';
 import VPODetails from '../VPODetails';
 import CPODetails from '../CPODetails';
+// import Data from 'json.json';
 
 export default function RightBlock() {
   const [value, setValue] = React.useState('Overview');
-  const [xmlData, setXmlData] = React.useState(null);
-    React.useEffect(() => {
-        async function fetchData() {
-            const response = await fetch('/xml.xml');
-            const text = await response.text();
+  const [jsonData, setJsonData] = React.useState([]);
+  // console.log('bao jsonData: ', jsonData);
 
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(text, 'text/xml');
-
-            const parsedData: any = xmlToJson(xmlDoc);
-            setXmlData(parsedData);
-        }
-        fetchData();
-    }, []);
+  React.useEffect(() => {
+    fetch('/data.json')
+      .then(response => response.json())
+      .then(data => {
+        setJsonData(data);
+      })
+      .catch(error => {
+        console.error('Error fetching JSON data:', error);
+      });
+  }, []);
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
@@ -48,8 +49,8 @@ export default function RightBlock() {
         <TabPanel value="Overview" sx={{
           padding: '12px'
         }}><VPOOverview /></TabPanel>
-        <TabPanel value="VPO-Details" sx={{padding: '12px'}}><VPODetails /></TabPanel>
-        <TabPanel value="CPO-Details" sx={{padding: '12px'}}><CPODetails data={xmlData && xmlData['ns0:LSPPurchaseOrders']['ns1:LSPPurchaseOrder']['LSPPurchaseHeader']}/></TabPanel>
+        <TabPanel value="VPO-Details" sx={{padding: '12px'}}><VPODetails dataVPODetails={jsonData.length ? jsonData : []}/></TabPanel>
+        <TabPanel value="CPO-Details" sx={{padding: '12px'}}><CPODetails dataCPODetails={jsonData.length ? jsonData[4] : []}/></TabPanel>
         <TabPanel value="Delivery">Delivery</TabPanel>
         <TabPanel value="Attachments">Attachments</TabPanel>
         <TabPanel value="MultiView-Reflist">MultiView Reflist</TabPanel>

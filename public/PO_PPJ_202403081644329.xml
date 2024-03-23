@@ -1,0 +1,1234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ns0:LSPPurchaseOrders xmlns:ns0="www.mgfsourcing.com/schemas/logistics/LSP/PurchaseOrders/v1.0"
+    xmlns:ns1="www.mgfsourcing.com/schemas/logistics/LSP/PurchaseOrder/v1.0"
+    xmlns:ns2="www.mgfsourcing.com/schemas/logistics/LSP/Address/v1.0">
+    <ns1:LSPPurchaseOrder>
+        <LSPPurchaseHeader>
+            <PONumber>CHIDEDEN100582527</PONumber>
+            <POStatus>APPROVED</POStatus>
+            <POType>DS</POType>
+            <POCreatedDate>2023-09-14T02:27:49</POCreatedDate>
+            <POShortNum>100582527</POShortNum>
+            <PONumPrefix>DE-DEN</PONumPrefix>
+            <Brand>CHI</Brand>
+            <TSCustomerAccount>105</TSCustomerAccount>
+            <CustName>CHICOS</CustName>
+            <TSVendorAccount>900141</TSVendorAccount>
+            <AXVendorAccount>10000141</AXVendorAccount>
+            <VendorName>PHONG PHU INTERNATIONAL JSC</VendorName>
+            <TSFactoryAccount>100432</TSFactoryAccount>
+            <AXFactoryAccount>11500372</AXFactoryAccount>
+            <FactoryName>PHONG PHU/ PHONG PHU - PHU YEN 3 EX</FactoryName>
+            <VendDeliveryTerms>FOB</VendDeliveryTerms>
+            <PaymentTerms>NT90</PaymentTerms>
+            <CountryOfOrigin>VN</CountryOfOrigin>
+            <CompanyCode>3005</CompanyCode>
+            <ProductionOffice>SGN</ProductionOffice>
+            <Season>SPRING 2024</Season>
+            <CommodityCode>AP-APPAREL</CommodityCode>
+            <LadingPoint>55224</LadingPoint>
+            <Addresses>
+                <ns2:Address>
+                    <Type>Vendor</Type>
+                    <AccountNum>900141</AccountNum>
+                    <Name>PHONG PHU INTERNATIONAL JSC</Name>
+                    <Street1>48 TANG NHON PHU STREET</Street1>
+                    <Street2>TANG NHON PHU B WARD</Street2>
+                    <City>HO CHI MINH</City>
+                    <PostalCode>N/A</PostalCode>
+                    <Country>VN</Country>
+                </ns2:Address>
+                <ns2:Address>
+                    <Type>Factory</Type>
+                    <AccountNum>100432</AccountNum>
+                    <Name>PHONG PHU/ PHONG PHU - PHU YEN 3 EXPORT GARMENT FACTORY</Name>
+                    <Street1>47 NGUYEN TRUNG TRUC STREET</Street1>
+                    <Street2>WARD 8, TUY HOA CITY</Street2>
+                    <City>TUY HOA CITY</City>
+                    <PostalCode>620000</PostalCode>
+                    <Country>VN</Country>
+                </ns2:Address>
+                <ns2:Address>
+                    <Type>Customer</Type>
+                    <AccountNum>105</AccountNum>
+                    <Name>CHICO'S FAS, INC.</Name>
+                    <Street1>11215 METRO PARKWAY</Street1>
+                    <City>FORT MEYERS</City>
+                    <State>FL</State>
+                    <PostalCode>33966</PostalCode>
+                    <Country>US</Country>
+                </ns2:Address>
+            </Addresses>
+            <LSPPurchaseLines>
+                <LSPPurchaseLine>
+                    <PONumber>CHIDEDEN100582527</PONumber>
+                    <LineNumber>2</LineNumber>
+                    <RowNumber>2.000000</RowNumber>
+                    <POLineStatus>OPEN</POLineStatus>
+                    <RequestNumber>HQ197047</RequestNumber>
+                    <CustStyleNum>032-23C111967</CustStyleNum>
+                    <ItemDescription>HIGH RISE WIDE LEG JEAN</ItemDescription>
+                    <VPOColorway>SKYLAR INDIGO</VPOColorway>
+                    <CPONumber>4502161594</CPONumber>
+                    <CPODate>2023-09-19</CPODate>
+                    <FOBPrice>15.720000</FOBPrice>
+                    <FOBCur>USD</FOBCur>
+                    <FinalQty>6200.000000</FinalQty>
+                    <FinalQtyUOM>EA</FinalQtyUOM>
+                    <FactoryGACDate>2024-02-20</FactoryGACDate>
+                    <Department>CHI001</Department>
+                    <Division>CHICOS</Division>
+                    <Class>PANT</Class>
+                    <CustDeliveryTerms>FOB</CustDeliveryTerms>
+                    <FactoryDeliveryTerms>FOB</FactoryDeliveryTerms>
+                    <TransportationMode>AIR</TransportationMode>
+                    <FinalDestination>GA</FinalDestination>
+                    <PortOfOrigin>SGN</PortOfOrigin>
+                    <CustShipTo>CHI-FGA</CustShipTo>
+                    <GrossWeight>1.041700</GrossWeight>
+                    <GrossWeightUOM>LB</GrossWeightUOM>
+                    <ModeQlf>A-STD</ModeQlf>
+                    <CPOOrderType>SA</CPOOrderType>
+                    <Addresses>
+                        <ns2:Address>
+                            <Type>ShipTo</Type>
+                            <AccountNum>CHI-FGA</AccountNum>
+                            <Name>CHS DC1</Name>
+                            <Street1>1020 BARROW INDUSTRIAL PARKWAY</Street1>
+                            <City>WINDER</City>
+                            <State>GA</State>
+                            <PostalCode>30680</PostalCode>
+                            <Country>US</Country>
+                        </ns2:Address>
+                    </Addresses>
+                    <HTSNumbers></HTSNumbers>
+                    <CPOLineDetails>
+                        <CPOLineDetail>
+                            <CPOLineNum>11.000000</CPOLineNum>
+                            <CPORowNum>0</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>67</SizeCode>
+                            <SizeDescription>000R</SizeDescription>
+                            <CPOQty>30.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963919</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>12.000000</CPOLineNum>
+                            <CPORowNum>1</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>68</SizeCode>
+                            <SizeDescription>00R</SizeDescription>
+                            <CPOQty>289.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963926</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>13.000000</CPOLineNum>
+                            <CPORowNum>2</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>69</SizeCode>
+                            <SizeDescription>0R</SizeDescription>
+                            <CPOQty>169.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963933</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>14.000000</CPOLineNum>
+                            <CPORowNum>3</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>70</SizeCode>
+                            <SizeDescription>.5R</SizeDescription>
+                            <CPOQty>288.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963940</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>15.000000</CPOLineNum>
+                            <CPORowNum>4</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>71</SizeCode>
+                            <SizeDescription>1R</SizeDescription>
+                            <CPOQty>494.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963957</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>16.000000</CPOLineNum>
+                            <CPORowNum>5</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>72</SizeCode>
+                            <SizeDescription>1.5R</SizeDescription>
+                            <CPOQty>592.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963964</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>17.000000</CPOLineNum>
+                            <CPORowNum>6</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>73</SizeCode>
+                            <SizeDescription>2R</SizeDescription>
+                            <CPOQty>478.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963971</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>18.000000</CPOLineNum>
+                            <CPORowNum>7</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>74</SizeCode>
+                            <SizeDescription>2.5R</SizeDescription>
+                            <CPOQty>339.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963988</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>19.000000</CPOLineNum>
+                            <CPORowNum>8</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>75</SizeCode>
+                            <SizeDescription>3R</SizeDescription>
+                            <CPOQty>210.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963995</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>20.000000</CPOLineNum>
+                            <CPORowNum>9</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>76</SizeCode>
+                            <SizeDescription>3.5R</SizeDescription>
+                            <CPOQty>198.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964008</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>21.000000</CPOLineNum>
+                            <CPORowNum>10</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>77</SizeCode>
+                            <SizeDescription>4R</SizeDescription>
+                            <CPOQty>89.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964015</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>22.000000</CPOLineNum>
+                            <CPORowNum>11</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>114</SizeCode>
+                            <SizeDescription>00T</SizeDescription>
+                            <CPOQty>10.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964039</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>23.000000</CPOLineNum>
+                            <CPORowNum>12</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>115</SizeCode>
+                            <SizeDescription>0T</SizeDescription>
+                            <CPOQty>20.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964046</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>24.000000</CPOLineNum>
+                            <CPORowNum>13</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>116</SizeCode>
+                            <SizeDescription>.5T</SizeDescription>
+                            <CPOQty>30.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964053</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>25.000000</CPOLineNum>
+                            <CPORowNum>14</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>117</SizeCode>
+                            <SizeDescription>1T</SizeDescription>
+                            <CPOQty>39.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964060</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>26.000000</CPOLineNum>
+                            <CPORowNum>15</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>118</SizeCode>
+                            <SizeDescription>1.5T</SizeDescription>
+                            <CPOQty>52.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964077</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>27.000000</CPOLineNum>
+                            <CPORowNum>16</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>119</SizeCode>
+                            <SizeDescription>2T</SizeDescription>
+                            <CPOQty>52.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964084</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>28.000000</CPOLineNum>
+                            <CPORowNum>17</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>120</SizeCode>
+                            <SizeDescription>2.5T</SizeDescription>
+                            <CPOQty>52.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964091</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>29.000000</CPOLineNum>
+                            <CPORowNum>18</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>121</SizeCode>
+                            <SizeDescription>3T</SizeDescription>
+                            <CPOQty>39.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964107</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>30.000000</CPOLineNum>
+                            <CPORowNum>19</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>122</SizeCode>
+                            <SizeDescription>3.5T</SizeDescription>
+                            <CPOQty>23.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964114</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>31.000000</CPOLineNum>
+                            <CPORowNum>20</CPORowNum>
+                            <CustItemId>032-23C111967</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>123</SizeCode>
+                            <SizeDescription>4T</SizeDescription>
+                            <CPOQty>12.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533964121</CustSKU>
+                            <CustDescr>HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType></PackType>
+                            <PackRatio></PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>41.000000</CPOLineNum>
+                            <CPORowNum>21</CPORowNum>
+                            <CustItemId>032-23C111967 PPK</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>69</SizeCode>
+                            <SizeDescription>0R</SizeDescription>
+                            <CPOQty>385.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963933</CustSKU>
+                            <CustDescr>PPK HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType>PPK</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>42.000000</CPOLineNum>
+                            <CPORowNum>22</CPORowNum>
+                            <CustItemId>032-23C111967 PPK</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>70</SizeCode>
+                            <SizeDescription>.5R</SizeDescription>
+                            <CPOQty>385.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963940</CustSKU>
+                            <CustDescr>PPK HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType>PPK</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>43.000000</CPOLineNum>
+                            <CPORowNum>23</CPORowNum>
+                            <CustItemId>032-23C111967 PPK</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>71</SizeCode>
+                            <SizeDescription>1R</SizeDescription>
+                            <CPOQty>385.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963957</CustSKU>
+                            <CustDescr>PPK HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType>PPK</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>44.000000</CPOLineNum>
+                            <CPORowNum>24</CPORowNum>
+                            <CustItemId>032-23C111967 PPK</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>72</SizeCode>
+                            <SizeDescription>1.5R</SizeDescription>
+                            <CPOQty>385.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963964</CustSKU>
+                            <CustDescr>PPK HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType>PPK</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>45.000000</CPOLineNum>
+                            <CPORowNum>25</CPORowNum>
+                            <CustItemId>032-23C111967 PPK</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>73</SizeCode>
+                            <SizeDescription>2R</SizeDescription>
+                            <CPOQty>385.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963971</CustSKU>
+                            <CustDescr>PPK HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType>PPK</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>46.000000</CPOLineNum>
+                            <CPORowNum>26</CPORowNum>
+                            <CustItemId>032-23C111967 PPK</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>74</SizeCode>
+                            <SizeDescription>2.5R</SizeDescription>
+                            <CPOQty>385.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963988</CustSKU>
+                            <CustDescr>PPK HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType>PPK</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>47.000000</CPOLineNum>
+                            <CPORowNum>27</CPORowNum>
+                            <CustItemId>032-23C111967 PPK</CustItemId>
+                            <TSColorCode>CLR003</TSColorCode>
+                            <CustColorCode>SKYLAR</CustColorCode>
+                            <ColorDescription>SKYLAR INDIGO</ColorDescription>
+                            <SizeCode>75</SizeCode>
+                            <SizeDescription>3R</SizeDescription>
+                            <CPOQty>385.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>196533963995</CustSKU>
+                            <CustDescr>PPK HIGH RISE WIDE LEG JEAN</CustDescr>
+                            <CustLongSKU></CustLongSKU>
+                            <PrePackCode></PrePackCode>
+                            <PackType>PPK</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                    </CPOLineDetails>
+                </LSPPurchaseLine>
+            </LSPPurchaseLines>
+        </LSPPurchaseHeader>
+    </ns1:LSPPurchaseOrder>
+    <ns1:LSPPurchaseOrder>
+        <LSPPurchaseHeader>
+            <PONumber>EXADEDEN100591935</PONumber>
+            <POStatus>APPROVED</POStatus>
+            <POType>AOFI</POType>
+            <POCreatedDate>2023-11-16T07:41:21</POCreatedDate>
+            <POShortNum>100591935</POShortNum>
+            <PONumPrefix>DE-DEN</PONumPrefix>
+            <Brand>EXA</Brand>
+            <TSCustomerAccount>137</TSCustomerAccount>
+            <CustName>EXPRESS</CustName>
+            <TSVendorAccount>900141</TSVendorAccount>
+            <AXVendorAccount>10000141</AXVendorAccount>
+            <VendorName>PHONG PHU INTERNATIONAL JSC</VendorName>
+            <TSFactoryAccount>100386</TSFactoryAccount>
+            <AXFactoryAccount>11500213</AXFactoryAccount>
+            <FactoryName>PHONG PHU/ PHONG PHU PHU YEN 2 EX. </FactoryName>
+            <VendDeliveryTerms>FOB</VendDeliveryTerms>
+            <PaymentTerms>NT90</PaymentTerms>
+            <CountryOfOrigin>VN</CountryOfOrigin>
+            <CompanyCode>3005</CompanyCode>
+            <ProductionOffice>SGN</ProductionOffice>
+            <Season></Season>
+            <CommodityCode>AP-APPAREL</CommodityCode>
+            <LadingPoint>55224</LadingPoint>
+            <Addresses>
+                <ns2:Address>
+                    <Type>Vendor</Type>
+                    <AccountNum>900141</AccountNum>
+                    <Name>PHONG PHU INTERNATIONAL JSC</Name>
+                    <Street1>48 TANG NHON PHU STREET</Street1>
+                    <Street2>TANG NHON PHU B WARD</Street2>
+                    <City>HO CHI MINH</City>
+                    <PostalCode>N/A</PostalCode>
+                    <Country>VN</Country>
+                </ns2:Address>
+                <ns2:Address>
+                    <Type>Factory</Type>
+                    <AccountNum>100386</AccountNum>
+                    <Name>PHONG PHU/ PHONG PHU PHU YEN 2 EX. GARMENT - WASH FACTORY - PYFINCO</Name>
+                    <Street1>THE PLOT A1, ROAD 10A, NGUYEN TRUNG TRUC QUARTER</Street1>
+                    <Street2>WARD 8, TUY HOA CITY</Street2>
+                    <City>TUY HOA</City>
+                    <PostalCode>N/A</PostalCode>
+                    <Country>VN</Country>
+                </ns2:Address>
+                <ns2:Address>
+                    <Type>Customer</Type>
+                    <AccountNum>137</AccountNum>
+                    <Name>EXPRESS</Name>
+                    <Street1>1 EXPRESS DRIVE</Street1>
+                    <City>COLUMBUS</City>
+                    <State>OHIO</State>
+                    <PostalCode>43230</PostalCode>
+                    <Country>US</Country>
+                </ns2:Address>
+            </Addresses>
+            <LSPPurchaseLines>
+                <LSPPurchaseLine>
+                    <PONumber>EXADEDEN100591935</PONumber>
+                    <LineNumber>1</LineNumber>
+                    <RowNumber>1.000000</RowNumber>
+                    <POLineStatus>OPEN</POLineStatus>
+                    <RequestNumber>HQ200915</RequestNumber>
+                    <CustStyleNum>9112341</CustStyleNum>
+                    <ItemDescription>HR RELAXED STRAIGHT ANKLE</ItemDescription>
+                    <VPOColorway>ABITA</VPOColorway>
+                    <CPONumber>703903</CPONumber>
+                    <CPODate>2023-11-02</CPODate>
+                    <FOBPrice>15.040000</FOBPrice>
+                    <FOBCur>USD</FOBCur>
+                    <FinalQty>2908.000000</FinalQty>
+                    <FinalQtyUOM>EA</FinalQtyUOM>
+                    <FactoryGACDate>2024-02-05</FactoryGACDate>
+                    <Department>EXA591</Department>
+                    <Division>1</Division>
+                    <Class>PANT</Class>
+                    <CustDeliveryTerms>FOB</CustDeliveryTerms>
+                    <FactoryDeliveryTerms>FOB</FactoryDeliveryTerms>
+                    <TransportationMode>OCN</TransportationMode>
+                    <FinalDestination>OH</FinalDestination>
+                    <PortOfOrigin>55224</PortOfOrigin>
+                    <CustShipTo>EXA-OH</CustShipTo>
+                    <GrossWeight>1.341700</GrossWeight>
+                    <GrossWeightUOM>LB</GrossWeightUOM>
+                    <ModeQlf>O-STD</ModeQlf>
+                    <CPOOrderType>EXPRESS</CPOOrderType>
+                    <Addresses>
+                        <ns2:Address>
+                            <Type>ShipTo</Type>
+                            <AccountNum>EXA-OH</AccountNum>
+                            <Name>EXPRESS</Name>
+                            <Street1>ONE EXPRESS DRIVE</Street1>
+                            <City>COLUMBUS</City>
+                            <State>OH</State>
+                            <PostalCode>43230</PostalCode>
+                            <Country>US</Country>
+                        </ns2:Address>
+                    </Addresses>
+                    <HTSNumbers></HTSNumbers>
+                    <CPOLineDetails>
+                        <CPOLineDetail>
+                            <CPOLineNum>1.000000</CPOLineNum>
+                            <CPORowNum>0</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1208</SizeCode>
+                            <SizeDescription>8 SHORT</SizeDescription>
+                            <CPOQty>73.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293465</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:8 SHORT</CustDescr>
+                            <CustLongSKU>6710671234100191208</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>2.000000</CPOLineNum>
+                            <CPORowNum>1</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1206</SizeCode>
+                            <SizeDescription>6 SHORT</SizeDescription>
+                            <CPOQty>89.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293618</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:6 SHORT</CustDescr>
+                            <CustLongSKU>6710671234100191206</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>3.000000</CPOLineNum>
+                            <CPORowNum>2</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1204</SizeCode>
+                            <SizeDescription>4 SHORT</SizeDescription>
+                            <CPOQty>98.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293502</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:4 SHORT</CustDescr>
+                            <CustLongSKU>6710671234100191204</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>4.000000</CPOLineNum>
+                            <CPORowNum>3</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1212</SizeCode>
+                            <SizeDescription>12 SHORT</SizeDescription>
+                            <CPOQty>40.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293489</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:12 SHORT</CustDescr>
+                            <CustLongSKU>6710671234100191212</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>5.000000</CPOLineNum>
+                            <CPORowNum>4</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1234</SizeCode>
+                            <SizeDescription>4 REG</SizeDescription>
+                            <CPOQty>354.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293649</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:4 REG</CustDescr>
+                            <CustLongSKU>6710671234100191234</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>6.000000</CPOLineNum>
+                            <CPORowNum>5</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1276</SizeCode>
+                            <SizeDescription>16 LONG</SizeDescription>
+                            <CPOQty>11.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293397</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:16 LONG</CustDescr>
+                            <CustLongSKU>6710671234100191276</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>7.000000</CPOLineNum>
+                            <CPORowNum>6</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1210</SizeCode>
+                            <SizeDescription>10 SHORT</SizeDescription>
+                            <CPOQty>51.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293434</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:10 SHORT</CustDescr>
+                            <CustLongSKU>6710671234100191210</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>8.000000</CPOLineNum>
+                            <CPORowNum>7</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1232</SizeCode>
+                            <SizeDescription>2 REG</SizeDescription>
+                            <CPOQty>242.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293571</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:2 REG</CustDescr>
+                            <CustLongSKU>6710671234100191232</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>9.000000</CPOLineNum>
+                            <CPORowNum>8</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1230</SizeCode>
+                            <SizeDescription>0 REG</SizeDescription>
+                            <CPOQty>155.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293564</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:0 REG</CustDescr>
+                            <CustLongSKU>6710671234100191230</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>10.000000</CPOLineNum>
+                            <CPORowNum>9</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1274</SizeCode>
+                            <SizeDescription>14 LONG</SizeDescription>
+                            <CPOQty>23.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293496</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:14 LONG</CustDescr>
+                            <CustLongSKU>6710671234100191274</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>11.000000</CPOLineNum>
+                            <CPORowNum>10</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1272</SizeCode>
+                            <SizeDescription>12 LONG</SizeDescription>
+                            <CPOQty>35.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293472</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:12 LONG</CustDescr>
+                            <CustLongSKU>6710671234100191272</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>12.000000</CPOLineNum>
+                            <CPORowNum>11</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1270</SizeCode>
+                            <SizeDescription>10 LONG</SizeDescription>
+                            <CPOQty>43.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293519</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:10 LONG</CustDescr>
+                            <CustLongSKU>6710671234100191270</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>13.000000</CPOLineNum>
+                            <CPORowNum>12</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1216</SizeCode>
+                            <SizeDescription>16 SHORT</SizeDescription>
+                            <CPOQty>13.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293403</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:16 SHORT</CustDescr>
+                            <CustLongSKU>6710671234100191216</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>14.000000</CPOLineNum>
+                            <CPORowNum>13</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1238</SizeCode>
+                            <SizeDescription>8 REG</SizeDescription>
+                            <CPOQty>343.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293588</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:8 REG</CustDescr>
+                            <CustLongSKU>6710671234100191238</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>15.000000</CPOLineNum>
+                            <CPORowNum>14</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1214</SizeCode>
+                            <SizeDescription>14 SHORT</SizeDescription>
+                            <CPOQty>27.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293625</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:14 SHORT</CustDescr>
+                            <CustLongSKU>6710671234100191214</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>16.000000</CPOLineNum>
+                            <CPORowNum>15</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1236</SizeCode>
+                            <SizeDescription>6 REG</SizeDescription>
+                            <CPOQty>363.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293601</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:6 REG</CustDescr>
+                            <CustLongSKU>6710671234100191236</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>17.000000</CPOLineNum>
+                            <CPORowNum>16</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1246</SizeCode>
+                            <SizeDescription>16 REG</SizeDescription>
+                            <CPOQty>30.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293458</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:16 REG</CustDescr>
+                            <CustLongSKU>6710671234100191246</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>18.000000</CPOLineNum>
+                            <CPORowNum>17</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1268</SizeCode>
+                            <SizeDescription>8 LONG</SizeDescription>
+                            <CPOQty>48.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293410</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:8 LONG</CustDescr>
+                            <CustLongSKU>6710671234100191268</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>19.000000</CPOLineNum>
+                            <CPORowNum>18</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1202</SizeCode>
+                            <SizeDescription>2 SHORT</SizeDescription>
+                            <CPOQty>81.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293526</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:2 SHORT</CustDescr>
+                            <CustLongSKU>6710671234100191202</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>20.000000</CPOLineNum>
+                            <CPORowNum>19</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1200</SizeCode>
+                            <SizeDescription>0 SHORT</SizeDescription>
+                            <CPOQty>56.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293427</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:0 SHORT</CustDescr>
+                            <CustLongSKU>6710671234100191200</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>21.000000</CPOLineNum>
+                            <CPORowNum>20</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1244</SizeCode>
+                            <SizeDescription>14 REG</SizeDescription>
+                            <CPOQty>143.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293632</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:14 REG</CustDescr>
+                            <CustLongSKU>6710671234100191244</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>22.000000</CPOLineNum>
+                            <CPORowNum>21</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1266</SizeCode>
+                            <SizeDescription>6 LONG</SizeDescription>
+                            <CPOQty>45.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293540</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:6 LONG</CustDescr>
+                            <CustLongSKU>6710671234100191266</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>23.000000</CPOLineNum>
+                            <CPORowNum>22</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1242</SizeCode>
+                            <SizeDescription>12 REG</SizeDescription>
+                            <CPOQty>212.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293595</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:12 REG</CustDescr>
+                            <CustLongSKU>6710671234100191242</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>24.000000</CPOLineNum>
+                            <CPORowNum>23</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1264</SizeCode>
+                            <SizeDescription>4 LONG</SizeDescription>
+                            <CPOQty>36.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293533</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:4 LONG</CustDescr>
+                            <CustLongSKU>6710671234100191264</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>25.000000</CPOLineNum>
+                            <CPORowNum>24</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1240</SizeCode>
+                            <SizeDescription>10 REG</SizeDescription>
+                            <CPOQty>269.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293557</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:10 REG</CustDescr>
+                            <CustLongSKU>6710671234100191240</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>26.000000</CPOLineNum>
+                            <CPORowNum>25</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1262</SizeCode>
+                            <SizeDescription>2 LONG</SizeDescription>
+                            <CPOQty>19.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293441</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:2 LONG</CustDescr>
+                            <CustLongSKU>6710671234100191262</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                        <CPOLineDetail>
+                            <CPOLineNum>27.000000</CPOLineNum>
+                            <CPORowNum>26</CPORowNum>
+                            <CustItemId>9112341</CustItemId>
+                            <TSColorCode>CLR001</TSColorCode>
+                            <CustColorCode>00019</CustColorCode>
+                            <ColorDescription>MEDIUM DENIM 22</ColorDescription>
+                            <SizeCode>1260</SizeCode>
+                            <SizeDescription>0 LONG</SizeDescription>
+                            <CPOQty>9.000000</CPOQty>
+                            <CPOQtyUOM>EA</CPOQtyUOM>
+                            <CustSKU>47293380</CustSKU>
+                            <CustDescr>EX - HR RELAXED STRAIGHT ANKLE ABITA 9112341:MEDIUM DENIM
+                                22:0 LONG</CustDescr>
+                            <CustLongSKU>6710671234100191260</CustLongSKU>
+                            <PrePackCode>1</PrePackCode>
+                            <PackType>1</PackType>
+                            <PackRatio>1.000000</PackRatio>
+                        </CPOLineDetail>
+                    </CPOLineDetails>
+                </LSPPurchaseLine>
+            </LSPPurchaseLines>
+        </LSPPurchaseHeader>
+    </ns1:LSPPurchaseOrder>
+</ns0:LSPPurchaseOrders>
